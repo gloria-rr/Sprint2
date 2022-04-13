@@ -5,6 +5,16 @@ body {
 $primary:#5265E1;
 $secondary: #FA5959;
 
+$grid-breakpoints: (xs: 0,
+    sm: 276px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px);
 
+a:active{
+    border-bottom: solid;
+    border-bottom-color: $secondary;
+}
 
 @import "./node_modules/bootstrap/scss/bootstrap.scss"
