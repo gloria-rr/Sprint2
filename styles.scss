@@ -21,4 +21,12 @@ a:active{
     border-top: 3px rgb(187, 183, 183) dotted;
 }
 
+.accordion-button {
+    background-color: $primary;
+}
+ $accordion-icon-color: $primary;
+
+
+
+
 @import "./node_modules/bootstrap/scss/bootstrap.scss"
