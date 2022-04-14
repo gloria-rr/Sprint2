@@ -17,4 +17,8 @@ a:active{
     border-bottom-color: $secondary;
 }
 
+.dotted {
+    border-top: 3px rgb(187, 183, 183) dotted;
+}
+
 @import "./node_modules/bootstrap/scss/bootstrap.scss"
